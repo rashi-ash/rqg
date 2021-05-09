@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.showcase video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.7;
+}
+
+.box{
+  
+  position: absolute;
+  z-index:10;
+  color: rgb(1, 12, 12);
+  
+}
+
+.box, .body-box{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#output{
+  margin-top: 20px;
+}
+
+.box h1{
+  font-size: 45px;
+    color: rgb(72, 62, 85);
+}
+
+.box .body-box p{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box .body-box span{
+  color: rgb(26, 13, 13);
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.box h4 {
+  font-size: 15px;
+  padding-top: 25px;
+  color: lightgray;
+}
+
+
+.generate{
+  width: 300px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 0px 10px 0px 10px;
+  font-size: 20px;
+  outline: none;
+}
+
+.generate:hover{
+  letter-spacing: 6px;
+  transition: 0.5s;
+}
+
+.box h4:hover{
+  letter-spacing: 2px;
+}
+
